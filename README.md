@@ -1,8 +1,6 @@
 ###注意事项
-0. 本项目的基础框架基于大漠穷秋开源的angularJs项目中修改而来，地址：http://git.oschina.net/mumu-osc/NiceFish-Admin-ng1，主要演示angularJs和Echarts的集成使用。
-
+0. 本项目的基础框架基于大漠穷秋开源的angularJs项目中修改而来，地址：[http://git.oschina.net/mumu-osc/NiceFish-Admin-ng1](http://git.oschina.net/mumu-osc/NiceFish-Admin-ng1)，  主要演示angularJs和Echarts的集成使用。
 1. 工程依赖的JDK版本为 `1.8` 。
-
 2. monitor模块是一个基于`Spring Boot`项目，直接运行 `Application.java` 便可启动工程，监听端口号可以在 `application.properties` 中修改。
 ```properties
 #web服务配置
