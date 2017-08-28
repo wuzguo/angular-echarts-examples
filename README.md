@@ -13,7 +13,7 @@ server.address=localhost
 
 3. UI使用的框架主要有`angularJS 1.x` 、`Bootstrap 3.3.X` 、`echarts 3.5.x` 等。
 
-4. **如果在启动`monitor`模块时发现服务监听的端口不是在配置文件`application.properties` 中配置的端口，需要在 `monitor` 中找到`monitor.iml` 文件增加如下配置：**
+4. **如果在启动项目时发现服务监听的端口不是在配置文件`application.properties` 中配置的端口，需要找到`angular-echarts-examples.iml` 文件增加如下配置：**
 ```xml
   <?xml version="1.0" encoding="UTF-8"?>
   <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
